@@ -45,6 +45,7 @@ body {
   margin-top: 5%;
   height: 155px;
   width: 350px;
+  background-color: red;
 }
 
 .carrucel {
@@ -61,7 +62,7 @@ body {
 .carrucel-img {
   height: inherit;
   width: inherit;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .promotion {
@@ -74,6 +75,8 @@ body {
   border: 1px solid red;
   margin: auto;
   margin-top: 8%;
+  border-radius: 3%;
+  overflow: hidden;
 }
 .ticket-container {
   height: 100%;
