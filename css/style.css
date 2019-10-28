@@ -118,6 +118,7 @@ section.awSlider > img{
   margin-top: 6%;
   border-radius: 4%;
   overflow: hidden;
+  box-shadow: 0 0 3px rgba(1, 1, 1, 0.747);
 }
 .ticket-container {
   height: 100%;
@@ -129,4 +130,29 @@ section.awSlider > img{
   align-content: center;
   width: 65%;
   height: 65%;
+}
+
+.footer {
+  height: 60px;
+  margin: 5% 0 0 0;
+  background-color: red;
+}
+
+.footer-content {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text {
+  margin: 0 4%;
+  font-size: 2.2em;
+  font-weight: 600;
+  color: white;
+}
+.footer-ubi {
+  margin: 1px -75%;
+  height: 35px;
+  color: white;
 }
