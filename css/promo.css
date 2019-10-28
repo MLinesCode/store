@@ -1,0 +1,96 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+.title-hero {
+  margin: 0;
+}
+.title {
+  display: flex;
+}
+.back-container {
+  height: inherit;
+  width: inherit;
+  margin: 0;
+}
+.back {
+  margin: -32% 0 0 0;
+  height: 200px;
+  width: 100%;
+  background-color: red;
+  position: relative;
+  z-index: -1;
+}
+
+.circle {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 2% 0 0 4.5%;
+}
+.logo-container {
+  position: relative;
+  padding: 0;
+}
+.logo-circle {
+  width: 100%;
+  height: 100%;
+}
+
+.local-name {
+  font-family: 'Viga', sans-serif;
+  font-size: 2.3em;
+  margin: 4% 4% 0 6%;
+  color: white;
+}
+
+.promo-container {
+  height: 470px;
+  width: auto;
+  margin: -18% 3% 2% 3%;
+  padding: 0;
+  box-shadow: 0 0 4px rgba(1, 1, 1, 0.747);
+}
+
+.promo-img {
+  object-fit: cover;
+  height: inherit;
+  width: inherit;
+}
+
+.legal-container {
+  width: 93%;
+  margin: 1% auto;
+}
+.legal-text {
+  color: black;
+  text-align: justify;
+  line-height: 14px;
+}
+
+.footer {
+  height: 60px;
+  margin: 5% 0 0 0;
+  background-color: red;
+}
+
+.footer-content {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text {
+  margin: 0 4%;
+  font-size: 2.2em;
+  font-weight: 600;
+  color: white;
+}
+.footer-ubi {
+  margin: 1px 20px 0 0;
+  height: 36px;
+  color: white;
+}
