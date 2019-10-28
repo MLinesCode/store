@@ -46,30 +46,6 @@ body {
   margin: 4% 4% 0 6%;
 }
 
-/* .hero {
-  margin: auto;
-  margin-top: 3%;
-  height: 175px;
-  width: 345px;
-}
-
-.carrucel {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  margin: -32% 0 0 0;
-  border-radius: 5px;
-  object-fit: cover;
-}
-.carrucel-container {
-  height: 100%;
-  width: 100%;
-}
-.carrucel-img {
-  height: inherit;
-  width: inherit;
-} */
-
 section.awSlider .carousel{
   display:table;
   z-index:2;
@@ -148,7 +124,7 @@ section.awSlider > img{
 .footer-text {
   margin: 0 4%;
   font-size: 2.2em;
-  font-weight: 600;
+  font-weight: 500;
   color: white;
 }
 .footer-ubi {
